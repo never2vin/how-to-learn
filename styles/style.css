@@ -53,6 +53,7 @@
 
 .header__link {
   text-decoration: none;
+  color: #2f80ed;
 }
 
 .header__main-illustration {
@@ -186,13 +187,13 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  text-align: center;
+  text-align: left;
   margin: 0;
   /* Выше убрал отступы у заголовка */
 }
 
 .table__heading_theme_dark {
-  text-align: left;
+
 }
 
 .table__text {
@@ -242,6 +243,7 @@
   font-size: 36px;
   font-weight: normal;
   text-decoration: none;
+  color: #2f80ed;
   position: absolute;
   right: 48px;
   top: 50%;
