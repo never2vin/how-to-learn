@@ -1,0 +1,10 @@
+.feynman__title {
+  max-width: 648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  /* Выше сбросил отступы у заголовка */
+  z-index: 1;
+}
