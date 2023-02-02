@@ -2,6 +2,18 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  position: relative;
   margin-top: 50px;
-  margin-bottom: -50px;
+  z-index: 0;
+}
+
+.video__iframes::after {
+  content: "";
+  height: 50px;
+  width: 100%;
+  background-color: #f2f2f2;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
 }
